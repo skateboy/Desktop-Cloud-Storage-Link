@@ -91,9 +91,6 @@ public class Controller {
 
     private String filelist = "src\\sample\\files";
 
-    public void addFile(FileC f){
-    }
-
     @FXML
     protected void uploadFile(ActionEvent event) throws IOException {
         FileChooser fileSelection = new FileChooser();
@@ -211,10 +208,6 @@ public class Controller {
 
         return accList;
     }
-
-    public void deleteFile(ActionEvent event, File f){
-
-    }
     public void validateUser(ActionEvent event) throws IOException{
         List<Account> accList = new ArrayList<>();
         accList = parseXML(accList);
@@ -261,15 +254,7 @@ public class Controller {
         }
         return true;
     }
-    public void addUser(boolean admin){
 
-    }
-    public void deleteUser(String name, boolean admin){
-
-    }
-    public void encryptFile(File f){
-
-    }
     public Account viewUser(String name, boolean admin){
         Account user = new Account();
 
