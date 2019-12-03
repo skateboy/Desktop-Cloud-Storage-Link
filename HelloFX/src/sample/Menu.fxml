@@ -16,7 +16,6 @@
                   <Font name="Freestyle Script" size="36.0" />
                </font>
             </Text>
-            <Button layoutX="350.0" layoutY="20.0" mnemonicParsing="false" style="-fx-background-color: linear-gradient(to bottom, #AEB6BF, #626567);" text="Download" />
             <Button fx:id="btnUpload" layoutX="430.0" layoutY="20.0" mnemonicParsing="false" onAction="#uploadFile" style="-fx-background-color: linear-gradient(to bottom, #AEB6BF, #626567);" text="Upload" />
             <Button fx:id="btnClose" layoutX="494.0" layoutY="20.0" mnemonicParsing="false" onAction="#close" style="-fx-background-color: linear-gradient(to bottom, #AEB6BF, #626567);" text="Quit" />
          </children>
